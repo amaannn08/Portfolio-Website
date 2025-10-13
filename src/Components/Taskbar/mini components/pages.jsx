@@ -47,7 +47,7 @@ const Pages = () => {
             onMouseLeave={() => setHover("")}
             className={`group flex flex-row p-2 items-center gap-1 rounded-md h-8 w-[97%] cursor-pointer
               ${isActive ? "bg-black text-white" : " text-black"} 
-              hover:bg-gray-200  hover:border-black ${isActive?"hover:border":""} transition-all duration-200`}
+              hover:bg-gray-300  hover:border-black ${isActive?"hover:border":""} transition-all duration-200`}
           >
             <img src={imgSrc} alt={`${item.label} icon`} className="h-4 w-4" />
             <h1 className='pt-1 font-mono text-md group-hover:text-black'>
