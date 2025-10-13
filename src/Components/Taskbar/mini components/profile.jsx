@@ -14,7 +14,7 @@ const Profile = () => {
                 "Software Engineer",
                 "CP Enthusiast",
                 "Problem Solver",
-                "Physics Enthusiast",
+                "Full Stack",
               ]}
               typeSpeed={60}
               backSpeed={40}

@@ -6,7 +6,7 @@ import Taskbar from "./Components/Taskbar/Taskbar";
 function App() {
   return (
     <div className="flex h-screen">
-      <div className="w-[200px] bg-[#f3f3f3]">
+      <div className="w-[200px] bg-[#ededed]">
           <Taskbar></Taskbar>
       </div>
       <div className="flex-1">

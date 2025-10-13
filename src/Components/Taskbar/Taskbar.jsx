@@ -6,11 +6,11 @@ import Pages from './mini components/pages';
 const Taskbar = () => {
   return (
     <>
-      <div className='flex flex-col p-3 bg-slate-400 h-screen'>
+      <div className='flex flex-col py-3 px-1 h-screen'>
         <div className='py-10 px-2'>
           <Profile></Profile>
         </div>
-        <div className=''>
+        <div className='w-[100%]'>
           <Pages></Pages>
         </div>
       </div>
